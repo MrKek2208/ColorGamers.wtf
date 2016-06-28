@@ -20,5 +20,5 @@ Feature list:
 ### How to Install:
 
 1. Download [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en&gl=EN) and Install it.
-2. Click this [Link](https://raw.githubusercontent.com/SWEAG/ColorGamers.wtf/master/Userscript.js) to Install the Userscript.
+2. Click this [Link](https://github.com/SWEAG/ColorGamers.wtf/raw/master/ColorChanger.user.js) to Install the Userscript.
 3. Reload the Page
