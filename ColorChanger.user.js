@@ -3,8 +3,8 @@
 // @namespace    http://mrkek.ovh/
 // @version      0.1
 // @description  Color Changer for the Gamers.wtf Dashboard, make Gamers.wtf great again!
-// @updateURL	https://github.com/SWEAG/ColorGamers.wtf/raw/master/Userscript.js
-// @downloadURL	https://github.com/SWEAG/ColorGamers.wtf/raw/master/Userscript.js
+// @updateURL	https://github.com/MrKek2208/ColorGamers.wtf/raw/master/Userscript.js
+// @downloadURL	https://github.com/MrKek2208/ColorGamers.wtf/raw/master/Userscript.js
 // @copyright	2016+, MrKek | Alex
 // @author       MrKek | Alex
 // @match        https://gamers.wtf/board/*
