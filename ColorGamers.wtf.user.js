@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         ColorGamers.wtf
+// @name         Gamers.wtf Color Changer
 // @namespace    http://mrkek.ovh/
 // @version      0.1
 // @description  Color Changer for the Gamers.wtf Dashboard, make Gamers.wtf great again!
-// @updateURL	https://github.com/MrKek2208/ColorGamers.wtf/raw/master/Userscript.js
-// @downloadURL	https://github.com/MrKek2208/ColorGamers.wtf/raw/master/Userscript.js
-// @copyright	2016+, MrKek | Alex
+// @updateURL	 https://github.com/MrKek2208/ColorGamers.wtf/raw/master/ColorGamers.wtf.user.js
+// @downloadURL	 https://github.com/MrKek2208/ColorGamers.wtf/raw/master/ColorGamers.wtf.user.js
+// @copyright	 2016+, MrKek | Alex
 // @author       MrKek | Alex
 // @match        https://gamers.wtf/board/*
 // @grant        none
