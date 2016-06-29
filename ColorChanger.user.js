@@ -9,18 +9,19 @@
 // @author       MrKek | Alex
 // @match        https://gamers.wtf/board/*
 // @grant        none
+// @icon         https://gamers.wtf/assets/img/logo/logo_128.png
 // @run-at       document-end
 // ==/UserScript==
 
 (function() {
     'use strict';
-    
+
     if(window.location.href === "https://gamers.wtf/board/") {
         function onColorChange(color) {
             $("#color").val(color);
             $(".cp-value").css("background-color", color);
         }
-        
+
         $(".container > .row").append('<div class="col-md-4">' +
                                       '<div class="card">' +
                                       '<div class="card-header">' +
@@ -46,10 +47,10 @@
                 colorPicker.setColor(readCookie("skin-color"));
             }
         }
-        
+
         $( "#savebtn" ).click(function() {
             createCookie("skin-color", $("#color").val(), 14);
-            
+
             swal({
                 title: "Great!",
                 text: "You changed the Color to: " + $("#color").val() + " Please reload the Page!",
@@ -59,19 +60,19 @@
             }, function(){
                 location.reload();
             });
-            
+
         });
-        
+
     }
-    
-    
+
+
     if(readCookie("skin-color") !== null) {
         var isOk  = /^#[0-9A-F]{6}$/i.test(readCookie("skin-color"));
         if(!isOk) {
             $("[data-current-skin]").attr("data-current-skin", readCookie("skin-color"));
         }
     }
-    
+
     if(readCookie("skin-color") !== null) {
         var isOk  = /^#[0-9A-F]{6}$/i.test(readCookie("skin-color"));
         if(isOk) {
@@ -80,7 +81,7 @@
             $(".cp-value").css("background-color", readCookie("skin-color"));
         }
     }
-    
+
     $(".top-menu").append ('<li class="dropdown">' +
                            '<a data-toggle="dropdown" href="" aria-expanded="false"><i class="tm-icon zmdi zmdi-format-color-fill"></i></a>' +
                            '<ul class="dropdown-menu dm-icon pull-right">' +
